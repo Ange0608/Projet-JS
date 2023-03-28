@@ -8,6 +8,18 @@
     <script src="todo.js"></script>
 </head>
 <body>
-    
+    <div id="taskList">
+        <ul>
+            <li>Faire les courses</li>
+            <li>Répondre à un e-mail important</li>
+            <li>Appeler le médecin pour prendre un rendez-vous</li>
+        </ul>
+    </div>
+    <form>
+        <label for="newTask">Nouvelle tâche :</label>
+        <input type="text" id="newTask" name="newTask">
+        <button type="button" onclick="addTask()">Ajouter</button>
+    </form>
+
 </body>
 </html>
