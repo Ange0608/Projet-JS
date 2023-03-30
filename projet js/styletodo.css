@@ -1,14 +1,87 @@
-#no_task{
+@import url(https://fonts.bunny.net/css?family=fasthand:400);
+@import url(https://fonts.bunny.net/css?family=bevan:400);
+
+#noTask {
     display: block;
+    font-family: 'Fasthand', display;
+    text-align: center;
+    color: white;
+    font-size: 1.2em; 
 }
 
+body {
+    background: rgb(212, 177, 235);
+    background: linear-gradient(49deg, rgba(212, 177, 235, 1) 3%, rgba(235, 159, 193, 1) 54%, rgba(255, 198, 118, 1) 100%);
+    background-repeat: no-repeat;
+    height: 800px;
+}
 
-.todolist{
+h1 {
+    text-align: center;
+    margin-top: 10rem;
+    padding-bottom: 1.5rem;
+    font-family: 'Fasthand', display;
+    color: white;
+    font-size: 3em;
+}
+
+.todolist {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: auto;
-
-
+    width: 25em;
 }
+
+.zone{
+    text-align: center;
+    width: 300px;
+    font-family: 'Fasthand', display;
+    font-size: 1.3em;
+    border-radius: 25px;
+    border: none;
+}
+
+#btn{
+    font-family: 'Bevan', display;
+    font-size: 1.4em;
+    color: white;
+    text-align: center;
+    width: 55px;
+    border-radius: 25px;
+    background-color: rgb(154, 192, 167);
+    cursor: pointer;
+    border: none;
+}
+
+#list{
+    font-family: 'Fasthand', display;
+    font-size: 2em;
+    color: white;
+}
+
+#list li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+#list li svg {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+
+
+
+
