@@ -1,0 +1,42 @@
+@import url(https://fonts.bunny.net/css?family=dm-sans:400,400i,500,500i,700,700i|fasthand:400|source-serif-pro:400);
+@import url(https://fonts.bunny.net/css?family=dm-sans:400,400i,500,500i,700,700i|fasthand:400|montserrat:100,100i,200,300,400,500,600,700,800,900|source-serif-pro:400);
+@import url(https://fonts.bunny.net/css?family=alice:400|dm-sans:400,400i,500,500i,700,700i|fasthand:400|montserrat:100,100i,200,300,400,500,600,700,800,900|source-serif-pro:400);
+
+
+body {
+	font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+h1 {
+	text-align: center;
+    box-sizing: content-box;
+    position:relative;
+    font-family: 
+
+}
+
+label {
+	font-size: 1.2em;
+}
+
+textarea {
+	width: 60%;
+	height: 20px;
+}
+
+#output {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.group {
+	background-color: #ee9cea;
+	border: 1px solid #8b5ef5;
+    border-radius: 6px;
+    border-width: 1.8px;
+	padding: 10px;
+	margin: 5px;
+}

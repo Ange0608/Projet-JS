@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="group.js"></script>
+	<title>Group Maker</title>
+	<link rel="stylesheet" type="text/css" href="groupstyle.css">
 </head>
 <body>
-    
-    <h1>Générateur de groupe</h1>
-
-    
+	<h1>Générateur de groupes</h1>
+	<label>Entrez les noms séparés par des virgules</label><br>
+	<textarea id="input"></textarea><br><br>
+	<button onclick="makeGroups()">Créer les groupes</button><br><br>
+	<label>Nombre de groupes:</label><br>
+	<input type="number" id="groupCount"><br><br>
+	<div id="output"></div>
+	<script src="group.js"></script>
 </body>
 </html>
