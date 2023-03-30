@@ -1,0 +1,47 @@
+@import url(https://fonts.bunny.net/css?family=dm-sans:400,400i,500,500i,700,700i|fasthand:400|source-serif-pro:400);
+@import url(https://fonts.bunny.net/css?family=dm-sans:400,400i,500,500i,700,700i|fasthand:400|montserrat:100,100i,200,300,400,500,600,700,800,900|source-serif-pro:400);
+@import url(https://fonts.bunny.net/css?family=alice:400|dm-sans:400,400i,500,500i,700,700i|fasthand:400|montserrat:100,100i,200,300,400,500,600,700,800,900|source-serif-pro:400);
+
+body {
+   
+    background-image: linear-gradient(to right, #eff8f9, #c2e0e4, #93c9cf, #60b1ba, #089aa6);
+
+
+}
+h1 {
+    color: rgb(3, 37, 53);
+    display: center;
+    padding-left: 12em;
+    padding-top: 1em;
+    padding-bottom:2em;
+    font-family: 'Alice', sans-serif;
+    font-size: 3em;
+    
+}
+
+button {
+    font-family: 'Alice', sans-serif;
+    flex-wrap: nowrap;
+    display: flex;
+    position: relative;
+    padding-right: 6em;
+    margin-left: 50em;
+    margin-bottom:8em;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(111, 171, 228) 17.8%, rgb(2, 162, 184) 100.2% );
+    border:none;
+    border-radius: 2em;
+    padding: 0.8em;
+    cursor:pointer;
+}
+
+#quote {
+    color: rgb(10, 10, 10);
+    font-family: 'Fasthand', display;
+    font-size:3em;
+    display:block;
+    padding-left:3em;
+    padding-bottom:2em;
+    cursor: pointer;
+    
+}
+
