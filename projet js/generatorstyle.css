@@ -32,6 +32,7 @@ button {
     border-radius: 2em;
     padding: 0.8em;
     cursor:pointer;
+    border: 2px solid rgb(87, 100, 160);
 }
 
 #quote {
@@ -43,5 +44,9 @@ button {
     padding-bottom:2em;
     cursor: pointer;
     
+}
+
+.citations {
+    height: 250px;
 }
 
