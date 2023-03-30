@@ -1,3 +1,14 @@
 #no_task{
     display: block;
 }
+
+
+.todolist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+
+}
