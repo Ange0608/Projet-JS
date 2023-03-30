@@ -11,7 +11,7 @@ function makeGroups() {
         names[j] = temp;
     }
 
-    // Diviser les noms dans des groupes
+    // Répartir les noms dans les groupes
     let groupSize = Math.ceil(names.length / groupCount);
     for (let i = 0; i < groupCount; i++) {
         let start = i * groupSize;
