@@ -14,19 +14,19 @@ let secondCard = false;
 
 //Items array
 const items = [
-  { name: "1up", image: "1up.png" },
-  { name: "blueshell", image: "blueshell.png" },
-  { name: "bobomb", image: "bobomb.png" },
-  { name: "bulletbill", image: "bulletbill.png" },
-  { name: "coin", image: "coin.png" },
-  { name: "goomba", image: "goomba.png" },
-  { name: "luigi", image: "luigi.png" },
-  { name: "mario", image: "mario.png" },
-  { name: "mushroom", image: "mushroom.png" },
-  { name: "peach", image: "peach.png" },
-  { name: "star", image: "star.png" },
-  { name: "thwomp", image: "thwomp.png" },
-];
+    { name: "1up", image: "1up.png" },
+    { name: "blueshell", image: "blueshell.png" },
+    { name: "bobomb", image: "bobomb.png" },
+    { name: "bulletbill", image: "bulletbill.png" },
+    { name: "coin", image: "coin.png" },
+    { name: "goomba", image: "goomba.png" },
+    { name: "luigi", image: "luigi.png" },
+    { name: "mario", image: "mario.png" },
+    { name: "mushroom", image: "mushroom.png" },
+    { name: "peach", image: "peach.png" },
+    { name: "star", image: "star.png" },
+    { name: "thwomp", image: "thwomp.png" },
+  ];
 
 //Initial Time
 let seconds = 0,
