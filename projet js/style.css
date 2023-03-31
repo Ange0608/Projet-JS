@@ -1,4 +1,4 @@
-@import url(https://fonts.bunny.net/css?family=allan:400);
+@import url(https://fonts.bunny.net/css?family=alex-brush:400);
 
 /* reset CSS */
 
@@ -43,33 +43,61 @@ table {
     border-spacing: 0;
 }
 
+
+body{
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
 h1{
-    font-family: 'Allan', display;
+    font-family: 'Alex Brush', handwriting;
     font-size: 5em;
     display: flex;
     justify-content: center;
     padding: 5rem;
-    background: -webkit-linear-gradient(#13dfee, #f04fa7);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: white;
 }
 
 .all_project{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
 }
 
 .citation, .to_do, .memory, .group, .api{
-    padding: 5rem;
-    margin-top: 6rem;
+    padding: 3rem;
+    margin-top: 3rem;
 }
 
 a{
-    font-family: 'Allan', display;
-    font-size: 2em;
+    font-family: 'Alex Brush', handwriting;
+    font-size: 3em;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(2, 2, 2);
+    font-weight: 600;
 }
+
+.citation, .to_do, .memory, .group, .api{
+    border: 3px solid rgb(83, 44, 83);
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    border-radius: 80px;
+    align-content: center;
+    background-color: white;
+    opacity: 0.5;
+    margin-left: 2rem;
+}
+
+.all_project{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
 
 
