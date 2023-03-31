@@ -17,7 +17,6 @@ const items = [
   { name: "1up", image: "1up.png" },
   { name: "blueshell", image: "blueshell.png" },
   { name: "bobomb", image: "bobomb.png" },
-  { name: "bulletbill", image: "bulletbill.png" },
   { name: "coin", image: "coin.png" },
   { name: "goomba", image: "goomba.png" },
   { name: "luigi", image: "luigi.png" },
