@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Group Maker</title>
 	<link rel="stylesheet" type="text/css" href="groupstyle.css">
-    <script src="group.js"></script>
+	<script src="group.js"></script>
 </head>
+
 <body>
 	<h1>Générateur de groupes</h1>
-	<label>Entrez les noms séparés par des virgules</label><br>
-	<textarea id="input"></textarea><br><br>
-	<button onclick="makeGroups()">Créer les groupes</button><br><br>
-	<label>Nombre de groupes:</label><br>
-	<input type="number" id="groupCount"><br><br>
+	<div class="names">
+		<label>Entrez les noms séparés par des virgules:</label>
+		<textarea id="input"></textarea>
+	</div>
+	<div class="groupMaker">
+	<label>Nombre de groupes:</label>
+	<input type="number" id="groupCount">
+	<button onclick="makeGroups()">Créer les groupes</button>
+</div>
+
 	<div id="output"></div>
-	
+
 </body>
+
 </html>

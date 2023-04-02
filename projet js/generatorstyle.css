@@ -10,8 +10,7 @@ body {
 }
 h1 {
     color: rgb(3, 37, 53);
-    display: center;
-    padding-left: 12em;
+    text-align: center;
     padding-top: 1em;
     padding-bottom:2em;
     font-family: 'Alice', sans-serif;
@@ -21,18 +20,15 @@ h1 {
 
 button {
     font-family: 'Alice', sans-serif;
-    flex-wrap: nowrap;
     display: flex;
-    position: relative;
-    padding-right: 6em;
-    margin-left: 50em;
-    margin-bottom:8em;
+    margin: auto;
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(111, 171, 228) 17.8%, rgb(2, 162, 184) 100.2% );
     border:none;
     border-radius: 2em;
     padding: 0.8em;
     cursor:pointer;
-    border: 2px solid rgb(87, 100, 160);
+    border: none;
+    box-shadow: 2px 3px 4px rgb(36, 36, 67);
 }
 
 #quote {
@@ -44,9 +40,12 @@ button {
     padding-bottom:2em;
     cursor: pointer;
     
+    
 }
 
 .citations {
     height: 250px;
+    width: 1080px;
+    margin: auto;
 }
 
