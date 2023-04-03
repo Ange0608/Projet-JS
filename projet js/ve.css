@@ -6,7 +6,7 @@
 
 body {
   margin: 20px 0;
-  background: #4e6cc7;
+  background: #6589F9;
 }
 
 .grid {
@@ -39,12 +39,12 @@ body {
 
 .front {
   z-index: 2;
-  background: #cbce13 url('../img/question.gif') no-repeat center center / contain;
+  background: #FAB942 url('../img/question.gif') no-repeat center center / contain;
 }
 
 .back {
   transform: rotateY(180deg);
-  background-color: #2453df;
+  background-color: #6589F9;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;

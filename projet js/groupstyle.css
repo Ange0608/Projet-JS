@@ -14,6 +14,7 @@ h1 {
 	text-align: center;
     box-sizing: content-box;
     position:relative;
+	font-family: 'Alice', sans-serif;
 }
 
 label {
@@ -30,11 +31,50 @@ textarea {
 	flex-wrap: wrap;
 }
 
+.names{
+	display: flex;
+	flex-direction: column;
+	margin: 4rem;
+	margin-top: 10rem;
+	align-items: center;
+	font-family: 'Alice', sans-serif;
+	line-height: 2rem;
+}
+
+#input, #groupCount{
+	border-radius: 25px;
+	height: 30px;
+}
+
+button{
+	padding: .5rem;
+	margin-top: 1.5rem;
+	border-radius: 25px;
+	font-family: 'Alice', sans-serif;
+	background-color: rgb(238,174,202);
+	border: none;
+	box-shadow: 2px 2px 2px rgb(84, 54, 84);
+}
+
+textarea{
+	width: 450px;
+}
+
 .group {
-	background-color: #ee9cea;
-	border: 1px solid #8b5ef5;
+	background-color: #d699d3;
+	border: 2px solid #675e7e;
     border-radius: 6px;
-    border-width: 1.8px;
-	padding: 10px;
-	margin: 5px;
+	padding: .5rem;
+	margin: 1.5rem;
+}
+
+
+.groupMaker{
+	display: flex;
+	flex-direction: column;
+	margin: 4rem;
+	margin-top: 6rem;
+	align-items: center;
+	line-height: 2rem;
+	font-family: 'Alice', sans-serif;
 }

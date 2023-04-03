@@ -37,9 +37,10 @@ const cardsArray = [
     'name': 'thwomp',
     'img': 'thwomp.png',
   },
+  
   {
     'name': 'bulletbill',
-    'img': 'bulletbill.png',
+    'img': 'img/bulletbill.png',
   },
   {
     'name': 'coin',
